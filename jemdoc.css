@@ -325,7 +325,7 @@ span.arxiv {
 	color:#fff;
 	/* background-color: #428bca; */
 	background-color: #f0ad4e;
-  }
+}
 
 span.code {
 	display: inline-block; /* 将元素设置为内联块级元素，以适应内容大小 */
