@@ -319,8 +319,9 @@ span.comment, span.comment > *, span.string, span.string > * {
 
 span.paperbutton {
 	display: inline-block; /* 将元素设置为内联块级元素，以适应内容大小 */
-	font-family: Lato;
-	padding: 1px 2px 1px 2px; /* 设置上下左右的内边距值（顺时针顺序：上、右、下、左） */
+	/* font-family: Lato; */
+	font-size: 10px;
+	padding: 1px 4px 1px 4px; /* 设置上下左右的内边距值（顺时针顺序：上、右、下、左） */
 	border: 0px; 
 	border-radius: 5px; /* 设置边框圆角 */
 	color:#fff;
@@ -330,8 +331,9 @@ span.paperbutton {
 
 span.arxivbutton {
 	display: inline-block; /* 将元素设置为内联块级元素，以适应内容大小 */
-	font-family: Lato;
-	padding: 1px 2px 1px 2px; /* 设置上下左右的内边距值（顺时针顺序：上、右、下、左） */
+	/* font-family: Lato; */
+	font-size: 10px;
+	padding: 1px 4px 1px 4px; /* 设置上下左右的内边距值（顺时针顺序：上、右、下、左） */
 	border: 0px; 
 	border-radius: 5px; /* 设置边框圆角 */
 	color:#fff;
@@ -341,8 +343,9 @@ span.arxivbutton {
 
 span.codebutton {
 	display: inline-block; /* 将元素设置为内联块级元素，以适应内容大小 */
-	font-family: Lato;
-	padding: 1px 2px 1px 2px; /* 设置上下左右的内边距值（顺时针顺序：上、右、下、左） */
+	/* font-family: Lato; */
+	font-size: 10px;
+	padding: 1px 4px 1px 4px; /* 设置上下左右的内边距值（顺时针顺序：上、右、下、左） */
 	border: 0px; 
 	border-radius: 5px; /* 设置边框圆角 */
 	color:#fff;
