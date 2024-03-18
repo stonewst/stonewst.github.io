@@ -324,6 +324,7 @@ span.comment, span.comment > *, span.string, span.string > * {
 span.papertitle {
 	color:#527bbd;
 	font-size: 14px;
+	font-weight: bold;
 }
 
 span.authorlist {
