@@ -327,6 +327,16 @@ span.arxiv {
 	background-color: #f0ad4e;
   }
 
+span.code {
+	display: inline-block; /* 将元素设置为内联块级元素，以适应内容大小 */
+	padding: 5px; /* 设置内边距，增加文字与边框的间距 */
+	border: 1px solid #000; /* 设置边框样式 */
+	border-radius: 5px; /* 设置边框圆角 */
+	color:#fff;
+	/* background-color: #428bca; */
+	background-color: #c9302c;
+}
+
 
 
 @media print {
