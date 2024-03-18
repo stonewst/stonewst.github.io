@@ -87,7 +87,8 @@ a.urltext {
 	/* color: #b79339cb; 设置链接文本的颜色，例如红色 */
 	/* color: #695360c6; */
 	/* color: #7a5310; */
-	color: #246857;
+	/* color: #246857; */
+	color: #ae7e04eb;
   }
 
 #layout-menu a.current:link, #layout-menu a.current:visited {
