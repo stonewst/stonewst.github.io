@@ -323,7 +323,8 @@ span.comment, span.comment > *, span.string, span.string > * {
 }
 
 span.papertitle {
-	color:#527bbd;
+	/* color:#527bbd; */
+	color: #1a3c77;
 	font-size: 14px;
 	font-weight: bold;
 }
