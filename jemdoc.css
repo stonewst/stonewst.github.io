@@ -86,7 +86,8 @@ a:hover {
 a.urltext {
 	/* color: #b79339cb; 设置链接文本的颜色，例如红色 */
 	/* color: #695360c6; */
-	color: #7a5310;
+	/* color: #7a5310; */
+	color: #246857;
   }
 
 #layout-menu a.current:link, #layout-menu a.current:visited {
@@ -153,7 +154,7 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 165%;
+	font-size: 175%;
 	padding-bottom: 0.3em;
 }
 
@@ -326,7 +327,7 @@ span.comment, span.comment > *, span.string, span.string > * {
 span.papertitle {
 	/* color:#527bbd; */
 	color: #234c94;
-	font-size: 14px;
+	font-size: 14.5px;
 	font-weight: bold;
 }
 
@@ -368,7 +369,7 @@ span.codebutton {
 	display: inline-block; /* 将元素设置为内联块级元素，以适应内容大小 */
 	/* font-family: Lato; */
 	font-size: 10px;
-	padding: 2px 4px 2px 4px; /* 设置上下左右的内边距值（顺时针顺序：上、右、下、左） */
+	padding: 2px 5px 2px 5px; /* 设置上下左右的内边距值（顺时针顺序：上、右、下、左） */
 	border: 0px; 
 	border-radius: 2px; /* 设置边框圆角 */
 	color:#fff;
