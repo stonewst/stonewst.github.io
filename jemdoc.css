@@ -84,7 +84,8 @@ a:hover {
 }
 
 a.urltext {
-	color: #b79339cb; /* 设置链接文本的颜色，例如红色 */
+	/* color: #b79339cb; 设置链接文本的颜色，例如红色 */
+	color: #695360c6;
   }
 
 #layout-menu a.current:link, #layout-menu a.current:visited {
