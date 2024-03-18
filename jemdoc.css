@@ -136,7 +136,8 @@ strong {
 
 
 h1, h2, h3 {
-	color: #527bbd;
+	/* color: #527bbd; */
+	color: #000000;
 	margin-top: 0.7em;
 	margin-bottom: 0.5em;
 	padding-bottom: 0.2em;
@@ -373,23 +374,24 @@ table.imgtable, table.imgtable td {
     text-align: left;
 }
 
-.label-primary {
-	background-color: #428bca;
-  }
 
-.span.label {
-/* color: #999;
-background-color: #fff;
-cursor: not-allowed; */
-display:inline;
-padding:.2em .6em .3em;
-font-size:75%;
-font-weight:bold;
-line-height:1;
-color:#fff;
-text-align:center;
-white-space:nowrap;
-vertical-align:baseline;
-border-radius:.25em;
+
+span.label {
+	/* color: #999;
+	background-color: #fff;
+	cursor: not-allowed; */
+	display:inline;
+	padding:.2em .6em .3em;
+	font-size:75%;
+	font-weight:bold;
+	line-height:1;
+	color:#fff;
+	text-align:center;
+	white-space:nowrap;
+	vertical-align:baseline;
+	border-radius:.25em;
 }
 
+span.label-primary {
+	background-color: #428bca;
+}
