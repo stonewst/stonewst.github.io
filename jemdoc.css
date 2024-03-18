@@ -334,13 +334,13 @@ span.comment, span.comment > *, span.string, span.string > * {
 	color: #606060;
 }
 
-span.intern_affi {
+span.internaffi {
 	color: #000;
 	font-size: 15px;
 	font-weight: bold;
 }
 
-span.intern_discription {
+span.interndiscription {
 	color: #000;
 	font-size: 14px;
 }
