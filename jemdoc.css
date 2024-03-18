@@ -317,6 +317,18 @@ span.comment, span.comment > *, span.string, span.string > * {
 	color: #606060;
 }
 
+span.arxiv {
+	display: inline-block; /* 将元素设置为内联块级元素，以适应内容大小 */
+	padding: 5px; /* 设置内边距，增加文字与边框的间距 */
+	border: 1px solid #000; /* 设置边框样式 */
+	border-radius: 5px; /* 设置边框圆角 */
+	color:#fff;
+	/* background-color: #428bca; */
+	background-color: #f0ad4e;
+  }
+
+
+
 @media print {
 	#layout-menu { display: none; }
 }
@@ -376,22 +388,4 @@ table.imgtable, table.imgtable td {
 
 
 
-span.label {
-	/* color: #999;
-	background-color: #fff;
-	cursor: not-allowed; */
-	display:inline;
-	padding:.2em .6em .3em;
-	font-size:75%;
-	font-weight:bold;
-	line-height:1;
-	color:#fff;
-	text-align:center;
-	white-space:nowrap;
-	vertical-align:baseline;
-	border-radius:.25em;
-}
 
-span.label-primary {
-	background-color: #428bca;
-}
