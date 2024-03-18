@@ -363,7 +363,7 @@ span.papervenue {
 	font-size: 14px;
 }
 
-span.comingsoonbutton {
+span.comingbutton {
 	display: inline-block; /* 将元素设置为内联块级元素，以适应内容大小 */
 	/* font-family: Lato; */
 	font-size: 11px;
@@ -470,8 +470,6 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
-
-
 
 
 
