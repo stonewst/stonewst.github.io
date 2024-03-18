@@ -317,7 +317,18 @@ span.comment, span.comment > *, span.string, span.string > * {
 	color: #606060;
 }
 
-span.arxiv {
+span.paper-button {
+	display: inline-block; /* 将元素设置为内联块级元素，以适应内容大小 */
+	font-family: Lato;
+	padding: 1px 2px 1px 2px; /* 设置上下左右的内边距值（顺时针顺序：上、右、下、左） */
+	border: 0px; 
+	border-radius: 5px; /* 设置边框圆角 */
+	color:#fff;
+	/* background-color: #428bca; */
+	background-color: #3071a9;
+}
+
+span.arxiv-button {
 	display: inline-block; /* 将元素设置为内联块级元素，以适应内容大小 */
 	font-family: Lato;
 	padding: 1px 2px 1px 2px; /* 设置上下左右的内边距值（顺时针顺序：上、右、下、左） */
@@ -326,9 +337,9 @@ span.arxiv {
 	color:#fff;
 	/* background-color: #428bca; */
 	background-color: #f0ad4e;
-  }
+}
 
-span.code {
+span.code-button {
 	display: inline-block; /* 将元素设置为内联块级元素，以适应内容大小 */
 	font-family: Lato;
 	padding: 1px 2px 1px 2px; /* 设置上下左右的内边距值（顺时针顺序：上、右、下、左） */
