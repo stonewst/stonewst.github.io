@@ -245,7 +245,7 @@ p + ul, p + ol {
 
 li {
 	margin-top:0.9em;
-	font-size: 14px;
+	font-size: 14.5px;
 }
 
 ol {
@@ -362,6 +362,19 @@ span.papervenue {
 	color: #000;
 	font-size: 14px;
 }
+
+span.comingsoonbutton {
+	display: inline-block; /* 将元素设置为内联块级元素，以适应内容大小 */
+	/* font-family: Lato; */
+	font-size: 11px;
+	padding: 2px 4px 2px 4px; /* 设置上下左右的内边距值（顺时针顺序：上、右、下、左） */
+	border: 0px; 
+	border-radius: 3px; /* 设置边框圆角 */
+	color:#fff;
+	/* background-color: #428bca; */
+	background-color: #449d44;
+}
+
 
 span.paperbutton {
 	display: inline-block; /* 将元素设置为内联块级元素，以适应内容大小 */
