@@ -245,6 +245,7 @@ p + ul, p + ol {
 
 li {
 	margin-top:0.9em;
+	font-size: 15px;
 }
 
 ol {
