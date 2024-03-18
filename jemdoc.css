@@ -85,7 +85,8 @@ a:hover {
 
 a.urltext {
 	/* color: #b79339cb; 设置链接文本的颜色，例如红色 */
-	color: #695360c6;
+	/* color: #695360c6; */
+	color: #7a5310;
   }
 
 #layout-menu a.current:link, #layout-menu a.current:visited {
@@ -324,7 +325,7 @@ span.comment, span.comment > *, span.string, span.string > * {
 
 span.papertitle {
 	/* color:#527bbd; */
-	color: #1a3c77;
+	color: #234c94;
 	font-size: 14px;
 	font-weight: bold;
 }
