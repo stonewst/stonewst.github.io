@@ -91,6 +91,14 @@ a.urltext {
 	color: #ae7e04eb;
   }
 
+a.urltext2 {
+	/* color: #b79339cb; 设置链接文本的颜色，例如红色 */
+	color: #695360c6;
+	/* color: #7a5310; */
+	/* color: #246857; */
+	/* color: #ae7e04eb; */
+  }
+
 #layout-menu a.current:link, #layout-menu a.current:visited {
 	color: #022b6d;
 	border-bottom: 1px gray solid;
@@ -326,7 +334,7 @@ span.comment, span.comment > *, span.string, span.string > * {
 }
 
 span.intern_affi {
-	color: #234c94;
+	color: #000;
 	font-size: 15px;
 	font-weight: bold;
 }
