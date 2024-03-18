@@ -83,6 +83,10 @@ a:hover {
 	border-bottom: 1px gray dotted;
 }
 
+a.urltext {
+	color: #ddd3d369; /* 设置链接文本的颜色，例如红色 */
+  }
+
 #layout-menu a.current:link, #layout-menu a.current:visited {
 	color: #022b6d;
 	border-bottom: 1px gray solid;
@@ -321,9 +325,9 @@ span.paperbutton {
 	display: inline-block; /* 将元素设置为内联块级元素，以适应内容大小 */
 	/* font-family: Lato; */
 	font-size: 10px;
-	padding: 1px 4px 1px 4px; /* 设置上下左右的内边距值（顺时针顺序：上、右、下、左） */
+	padding: 2px 4px 2px 4px; /* 设置上下左右的内边距值（顺时针顺序：上、右、下、左） */
 	border: 0px; 
-	border-radius: 5px; /* 设置边框圆角 */
+	border-radius: 2px; /* 设置边框圆角 */
 	color:#fff;
 	/* background-color: #428bca; */
 	background-color: #3071a9;
@@ -333,9 +337,9 @@ span.arxivbutton {
 	display: inline-block; /* 将元素设置为内联块级元素，以适应内容大小 */
 	/* font-family: Lato; */
 	font-size: 10px;
-	padding: 1px 4px 1px 4px; /* 设置上下左右的内边距值（顺时针顺序：上、右、下、左） */
+	padding: 2px 4px 2px 4px; /* 设置上下左右的内边距值（顺时针顺序：上、右、下、左） */
 	border: 0px; 
-	border-radius: 5px; /* 设置边框圆角 */
+	border-radius: 2px; /* 设置边框圆角 */
 	color:#fff;
 	/* background-color: #428bca; */
 	background-color: #f0ad4e;
@@ -345,9 +349,9 @@ span.codebutton {
 	display: inline-block; /* 将元素设置为内联块级元素，以适应内容大小 */
 	/* font-family: Lato; */
 	font-size: 10px;
-	padding: 1px 4px 1px 4px; /* 设置上下左右的内边距值（顺时针顺序：上、右、下、左） */
+	padding: 2px 4px 2px 4px; /* 设置上下左右的内边距值（顺时针顺序：上、右、下、左） */
 	border: 0px; 
-	border-radius: 5px; /* 设置边框圆角 */
+	border-radius: 2px; /* 设置边框圆角 */
 	color:#fff;
 	/* background-color: #428bca; */
 	background-color: #c9302c;
