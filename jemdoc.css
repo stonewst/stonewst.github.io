@@ -319,18 +319,20 @@ span.comment, span.comment > *, span.string, span.string > * {
 
 span.arxiv {
 	display: inline-block; /* 将元素设置为内联块级元素，以适应内容大小 */
-	padding: 5px; /* 设置内边距，增加文字与边框的间距 */
-	border: 1px solid #000; /* 设置边框样式 */
+	font-family: Lato;
+	padding: 1px 2px 1px 2px; /* 设置上下左右的内边距值（顺时针顺序：上、右、下、左） */
+	border: 0px; 
 	border-radius: 5px; /* 设置边框圆角 */
 	color:#fff;
 	/* background-color: #428bca; */
 	background-color: #f0ad4e;
-}
+  }
 
 span.code {
 	display: inline-block; /* 将元素设置为内联块级元素，以适应内容大小 */
-	padding: 5px; /* 设置内边距，增加文字与边框的间距 */
-	border: 1px solid #000; /* 设置边框样式 */
+	font-family: Lato;
+	padding: 1px 2px 1px 2px; /* 设置上下左右的内边距值（顺时针顺序：上、右、下、左） */
+	border: 0px; 
 	border-radius: 5px; /* 设置边框圆角 */
 	color:#fff;
 	/* background-color: #428bca; */
