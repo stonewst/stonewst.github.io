@@ -1,0 +1,555 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+<meta name="keywords" content="Sitong Wu, Sitong Wu CUHK CSE, wu sitong, sitong wu, Sitong Wu CUHK, Sitong Wu Chinese University of Hong Kong"> 
+<meta name="description" content="Sitong Wu's home page">
+<!-- <link href="bootstrap.min.css" rel="stylesheet" media="screen" /> -->
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<link rel="shortcut icon" href="myIcon.ico">
+<title>Sitong Wu</title>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39824124-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body >
+
+<div id="layout-content" style="margin-top:25px">
+
+<table>
+	<tbody>
+		<tr>
+			<td width="670">
+				<div id="toptitle">
+					<h1>Sitong Wu <font face="verdana"> | 吴思彤 &nbsp;</font><h1>
+				</div>
+                            
+				<h3>PhD (3<sup>rd</sup> Year)</h3>
+				<p>
+					Department of Computer Science and Engineering</br>
+					The Chinese University of Hong Kong (CUHK)</br>
+					</br>
+					Email: <a href="mailto:stone-wu@link.cuhk.edu.hk" class="urltext">stone-wu@link.cuhk.edu.hk</a></br>
+        </p>
+        <p>
+          <a href="https://scholar.google.com.hk/citations?hl=en&user=0ao4z_MAAAAJ"><img src="./pics/logo/google_scholar_logo2.png" height="25px"></a>
+          <a href="https://stonewst.github.io/"><img src="./pics/logo/github_logo2.png" height="25px"></a>
+				</p>
+			</td>
+			<td>
+				<img src="pics/wst.png" border="0" width="150"></br>
+			</td>
+		<tr>
+	</tbody>
+</table>
+
+
+<h2>Biography</h2>
+<p>
+  I am currently a 1<sup>st</sup> year PhD student at <a href="https://www.cse.cuhk.edu.hk/en/" class="urltext">Computer Science & Engineering Department</a>, <a href="http://www.cuhk.edu.hk" class="urltext">The Chinese University of Hong Kong (CUHK)</a>, under the supervision of <a href="http://jiaya.me/" class="urltext">Prof. Jiaya Jia</a>. Before that, I got the Bachelor degree in Information Engineering at <a href="https://www.jlu.edu.cn/" class="urltext">Jilin University (JLU)</a>. 
+</p>
+<p>
+  <!--   My current research revolves around efficient and data-centric AI, with a particular emphasis on exploring their applications in large language models and multi-modality models. -->
+  My current research revolves around efficient and data-centric AI, particularly exploring their applications in current hot topics, such as large language models, multi-modality models, and generative models.
+</p>
+
+
+
+<h2> Selected Publications [<a href="https://scholar.google.com.hk/citations?hl=en&user=0ao4z_MAAAAJ" class="urltext">Google Scholar</a>]</h2>
+<p style="margin-bottom: 0.6em;">*: equal contribution &nbsp;&nbsp;|&nbsp;&nbsp; <span style="font-size:13px; color:#666;">Click a research direction to expand / collapse.</span></p>
+<p style="margin-bottom: 0.8em;">
+  <span class="pubtoggle" onclick="togglePubGroups(true)">Expand all</span>
+  <span class="pubtoggle" onclick="togglePubGroups(false)">Collapse all</span>
+</p>
+<script type="text/javascript">
+  function togglePubGroups(open) {
+    var groups = document.querySelectorAll('details.pubgroup');
+    for (var i = 0; i < groups.length; i++) { groups[i].open = open; }
+  }
+</script>
+
+<!-- ================= LLM & Agent ================= -->
+<details class="pubgroup" open>
+  <summary><span class="pubgroup-name">LLM &amp; Agent</span><span class="pubcount">10</span></summary>
+  <table class="pubtable">
+    <tbody>
+    <!-- P2T [CVPR 2026] -->
+    <tr>
+      <td><img width="280" style="padding: 15px;" src="./pics/paper/p2t_cvpr2026.png"></td>
+      <td>
+        <span class="papertitle">Unlocking Token Rewards via Training-Free Reward Attribution</span></br>
+        <span class="authorlist"><b>Sitong Wu</b>, Haoru Tan, Bin Xia, Xichen Zhang, Jingyao Li, Shaofeng Zhang, Xiaojuan Qi, Bei Yu, Jiaya Jia</span></br>
+        <span class="papervenue">IEEE Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2026</span></br>
+        <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Wu_Unlocking_Token_Rewards_via_Training-Free_Reward_Attribution_CVPR_2026_paper.pdf"><span class="paperbutton">paper</span></a> <a href="https://github.com/stonewst/P2T"><span class="codebutton">code</span></a>
+      </td>
+    </tr>
+
+    <!-- TRAC [ACL 2026] -->
+    <tr>
+      <td><img width="280" style="padding: 15px;" src="./pics/paper/trac_acl2026.png"></td>
+      <td>
+        <span class="papertitle">TRAC: Teacher-Guided Token Reward with Adaptive Calibration for Robust Policy Optimization</span></br>
+        <span class="authorlist"><b>Sitong Wu</b>, Haoru Tan, Xichen Zhang, Bin Xia, Wenhu Zhang, Xiaojuan Qi, Bei Yu, Jiaya Jia</span></br>
+        <span class="papervenue">Annual Meeting of the Association for Computational Linguistics (<b>ACL</b>), 2026</span></br>
+        <a href="https://aclanthology.org/2026.acl-long.2210.pdf"><span class="paperbutton">paper</span></a> <a href="https://github.com/stonewst/TRAC"><span class="codebutton">code</span></a>
+      </td>
+    </tr>
+
+    <!-- SR-TTRL [ICML 2026] -->
+    <tr>
+      <td><img width="280" style="padding: 15px;" src="./pics/paper/srttrl_icml2026.png"></td>
+      <td>
+        <span class="papertitle">Beyond Majority Voting: Self-Reflective Test-Time Reinforcement Learning for LLM Reasoning</span></br>
+        <span class="authorlist"><b>Sitong Wu</b>, Haoru Tan, Xichen Zhang, Bin Xia, Shaofeng Zhang, Xiaojuan Qi, Bei Yu, Jiaya Jia</span></br>
+        <span class="papervenue">International Conference on Machine Learning (<b>ICML</b>), 2026</span></br>
+        <a href="https://openreview.net/pdf?id=kSuRY5sCuR"><span class="paperbutton">paper</span></a> <a href="https://github.com/stonewst/SR-TTRL"><span class="codebutton">code</span></a>
+      </td>
+    </tr>
+
+    <!-- DLoFT [NeurIPS 2025] -->
+    <tr>
+      <td><img width="280" style="padding: 15px;" src="./pics/paper/dloft_neurips2025.png"></td>
+      <td>
+        <span class="papertitle">DLoFT: Gradient-Decoupled Fine-Tuning for Generalizable Long Chain-of-Thought Reasoning</span></br>
+        <span class="authorlist"><b>Sitong Wu</b>, Haoru Tan, Jingyao Li, Shaofeng Zhang, Xiaojuan Qi, Bei Yu, Jiaya Jia</span></br>
+        <span class="papervenue">Conference on Neural Information Processing Systems (<b>NeurIPS</b>), 2025</span></br>
+        <a href="https://papers.neurips.cc/paper_files/paper/2025/file/19c9708f31ec44b5b1cbd67f91d05d95-Paper-Conference.pdf"><span class="paperbutton">paper</span></a> <a href="https://github.com/stonewst/DLoFT"><span class="codebutton">code</span></a>
+      </td>
+    </tr>
+
+    <!-- DIEM [CVPR 2026] -->
+    <tr>
+      <td><img width="280" style="padding: 15px;" src="./pics/paper/diem_cvpr2026.png"></td>
+      <td>
+        <span class="papertitle">Dynamic Important Example Mining for Reinforcement Finetuning</span></br>
+        <span class="authorlist">Haoru Tan, <b>Sitong Wu</b><sup title="Corresponding Author" style="font-size:11px;">✉</sup>, Yanfeng Chen, Shizhen Zhao, Yang-Tian Sun, Tianjia Liu, Chirui Chang, Shaofeng Zhang, Samm Sun, Xiuzhe Wu, Ruobing Xie, Xiaojuan Qi</span></br>
+        <span class="papervenue">IEEE Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2026</span></br>
+        <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Tan_Dynamic_Important_Example_Mining_for_Reinforcement_Finetuning_CVPR_2026_paper.pdf"><span class="paperbutton">paper</span></a> <a href="https://github.com/hrtan/DIEM"><span class="codebutton">code</span></a>
+      </td>
+    </tr>
+
+    <!-- Scaf-GRPO [ICLR 2026] -->
+    <tr>
+      <td><img width="280" style="padding: 15px;" src="./pics/paper/scaf-grpo_iclr2026.png"></td>
+      <td>
+        <span class="papertitle">Scaf-GRPO: Scaffolded Group Relative Policy Optimization for Enhancing LLM Reasoning</span></br>
+        <span class="authorlist">Xichen Zhang*, <b>Sitong Wu*</b>, Yinghao Zhu, Haoru Tan, Shaozuo Yu, Ziyi He, Jiaya Jia</span></br>
+        <span class="papervenue">International Conference on Learning Representations (<b>ICLR</b>), 2026</span></br>
+        <a href="https://openreview.net/pdf?id=bOwVr0yr7r"><span class="paperbutton">paper</span></a> <a href="https://arxiv.org/abs/2510.19807v2"><span class="arxivbutton">arXiv</span></a> <a href="https://github.com/JIA-Lab-research/Scaf-GRPO"><span class="codebutton">code</span></a>
+      </td>
+    </tr>
+
+    <!-- SmartSwitch [arXiv 2025] -->
+    <tr>
+      <td><img width="280" style="padding: 15px;" src="./pics/paper/smartswitch_arxiv2025.png"></td>
+      <td>
+        <span class="papertitle">SmartSwitch: Advancing LLM Reasoning by Overcoming Underthinking via Promoting Deeper Thought Exploration</span></br>
+        <span class="authorlist">Xichen Zhang*, <b>Sitong Wu*</b>, Haoru Tan, Shaozuo Yu, Yinghao Zhu, Ziyi He, Jiaya Jia</span></br>
+        <span class="papervenue"><b>arXiv</b>: 2510.19767</span></br>
+        <a href="https://arxiv.org/abs/2510.19767v1"><span class="arxivbutton">arXiv</span></a> <a href="https://github.com/JIA-Lab-research/SmartSwitch"><span class="codebutton">code</span></a>
+      </td>
+    </tr>
+
+    <!-- SpaceSkill [arXiv 2026] -->
+    <tr>
+      <td><img width="280" style="padding: 15px;" src="./pics/paper/spaceskill_arxiv2026.png"></td>
+      <td>
+        <span class="papertitle">SpaceSkill: Hierarchical Skill Routing for Tool-Augmented Spatial Agents</span></br>
+        <span class="authorlist">Yuhuai Li, Haoru Tan, <b>Sitong Wu</b>, Wei Yin, Xiaojuan Qi</span></br>
+        <span class="papervenue"><b>arXiv</b>, 2026</span></br>
+        <span class="comingbutton">coming soon</span>
+      </td>
+    </tr>
+
+    <!-- SearchGym [ACL 2026] -->
+    <tr>
+      <td><img width="280" style="padding: 15px;" src="./pics/paper/searchgym_acl2026.png"></td>
+      <td>
+        <span class="papertitle">SearchGym: Bootstrapping Real-World Search Agents via Cost-Effective and High-Fidelity Environment Simulation</span></br>
+        <span class="authorlist">Xichen Zhang, Ziyi He, Yinghao Zhu, <b>Sitong Wu</b>, Shaozuo Yu, Meng Chu, Wenhu Zhang, Haoru Tan, Jiaya Jia</span></br>
+        <span class="papervenue">Annual Meeting of the Association for Computational Linguistics (<b>ACL</b>), 2026</span></br>
+        <a href="https://aclanthology.org/2026.acl-long.848.pdf"><span class="paperbutton">paper</span></a> <a href="https://arxiv.org/abs/2601.14615v1"><span class="arxivbutton">arXiv</span></a> <a href="https://github.com/JIA-Lab-research/SearchGym"><span class="codebutton">code</span></a>
+      </td>
+    </tr>
+
+    <!-- StreamArena [arXiv 2026] -->
+    <tr>
+      <td><img width="280" style="padding: 15px;" src="./pics/paper/streamarena_arxiv2026.png"></td>
+      <td>
+        <span class="papertitle">StreamArena: Toward Continuous, Interactive, and Long-Horizon Agentic Streaming Video Understanding</span></br>
+        <span class="authorlist">Xichen Zhang, Guankai Li, Yinghao Zhu, Shijian Wang, <b>Sitong Wu</b>, Shaozuo Yu, Meng Chu, Yuan Lu, Jiaya Jia</span></br>
+        <span class="papervenue"><b>arXiv</b>: 2608.05703</span></br>
+        <a href="https://arxiv.org/abs/2608.05703v1"><span class="arxivbutton">arXiv</span></a> <a href="https://github.com/JIA-Lab-research/StreamArena"><span class="codebutton">code</span></a>
+      </td>
+    </tr>
+
+    
+    </tbody>
+  </table>
+</details>
+
+<!-- ================= Multi-Modality ================= -->
+<details class="pubgroup" open>
+  <summary><span class="pubgroup-name">Multi-Modality</span><span class="pubcount">5</span></summary>
+  <table class="pubtable">
+    <tbody>
+
+    <!-- SaCo [CVPR 2024] -->
+    <tr>
+      <td><img width="280" style="padding: 15px;" src="./pics/paper/saco_cvpr2024.png"></td>
+      <td>
+          <span class="papertitle">SaCo Loss: Sample-wise Affinity Consistency for Vision-Language Pre-training</span></br>
+          <span class="authorlist"><b>Sitong Wu*</b>, Haoru Tan*, Zhuotao Tian, Yukang Chen, Xiaojuan Qi, Jiaya Jia</span></br>
+          <span class="papervenue">IEEE Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2024</span></br>
+          <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_SaCo_Loss_Sample-wise_Affinity_Consistency_for_Vision-Language_Pre-training_CVPR_2024_paper.pdf"><span class="paperbutton">paper</span></a> <a href="https://openaccess.thecvf.com/content/CVPR2024/supplemental/Wu_SaCo_Loss_Sample-wise_CVPR_2024_supplemental.pdf"><span class="suppbutton">supp</span></a> <a href="https://github.com/stonewst/SaCo-Loss"><span class="codebutton">code</span></a>
+      </td>
+    </tr>
+
+    <!-- MoS [ICCV 2025] -->
+    <tr>
+      <td><img width="280" style="padding: 15px;" src="./pics/paper/mos_iccv2025.png"></td>
+      <td>
+        <span class="papertitle">Mixture-of-Scores: Robust Image-Text Data Valuation via Three Lines of Code</span></br>
+        <span class="authorlist"><b>Sitong Wu*</b>, Haoru Tan*, Yukang Chen, Shaofeng Zhang, Jingyao Li, Bei Yu, Xiaojuan Qi, Jiaya Jia</span></br>
+        <span class="papervenue">IEEE/CVF International Conference on Computer Vision (<b>ICCV</b>), 2025</span></br>
+        <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Wu_Mixture-of-Scores_Robust_Image-Text_Data_Valuation_via_Three_Lines_of_Code_ICCV_2025_paper.pdf"><span class="paperbutton">paper</span></a> <a href="https://openaccess.thecvf.com/content/ICCV2025/supplemental/Wu_Mixture-of-Scores_Robust_Image-Text_ICCV_2025_supplemental.pdf"><span class="suppbutton">supp</span></a> <a href="https://github.com/stonewst/MoS"><span class="codebutton">code</span></a>
+      </td>
+    </tr>
+
+    <!-- Lyra [ICCV 2025] -->
+    <tr>
+      <td><img width="280" style="padding: 15px;" src="./pics/paper/lyra_iccv2025.png"></td>
+      <td>
+        <span class="papertitle">Lyra: An Efficient and Speech-Centric Framework for Omni-Cognition</span></br>
+        <span class="authorlist">Zhisheng Zhong, Chengyao Wang, Yuqi Liu, Senqiao Yang, Longxiang Tang, Yuechen Zhang, Jingyao Li, Tianyuan Qu, Yanwei Li, Yukang Chen, Shaozuo Yu, <b>Sitong Wu</b>, Eric Lo, Shu Liu, Jiaya Jia</span></br>
+        <span class="papervenue">IEEE/CVF International Conference on Computer Vision (<b>ICCV</b>), 2025</span></br>
+        <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Zhong_Lyra_An_Efficient_and_Speech-Centric_Framework_for_Omni-Cognition_ICCV_2025_paper.pdf"><span class="paperbutton">paper</span></a> <a href="https://arxiv.org/abs/2412.09501v1"><span class="arxivbutton">arXiv</span></a> <a href="https://github.com/JIA-Lab-research/Lyra"><span class="codebutton">code</span></a>
+      </td>
+    </tr>
+
+    <!-- VisionLeaf [CVPR 2026] -->
+    <tr>
+      <td><img width="280" style="padding: 15px;" src="./pics/paper/visionleaf_cvpr2026.png"></td>
+      <td>
+        <span class="papertitle">VisionLeaf: Entropy-Guided Leaf-First Reasoning for Efficient and Accurate Think-with-Image</span></br>
+        <span class="authorlist">Haokun Gui, Senqiao Yang, Mingkang Zhu, Meng Chu, <b>Sitong Wu</b>, Changsheng Lu, Zihao Wang, Zhuotao Tian, Jiaya Jia</span></br>
+        <span class="papervenue">IEEE Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2026</span></br>
+        <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Gui_VisionLeaf_Entropy-Guided_Leaf-First_Reasoning_for_Efficient_and_Accurate_Think-with-Image_CVPR_2026_paper.pdf"><span class="paperbutton">paper</span></a> <a href="https://openaccess.thecvf.com/content/CVPR2026/supplemental/Gui_VisionLeaf_Entropy-Guided_Leaf-First_CVPR_2026_supplemental.pdf"><span class="suppbutton">supp</span></a>
+      </td>
+    </tr>
+    
+    <!-- RegionBLIP [arXiv 2023] -->
+    <tr>
+      <td><img width="280" style="padding: 15px;" src="./pics/paper/regionblip_arxiv2023.png"></td>
+      <td>
+        <span class="papertitle">RegionBLIP: A Unified Multi-modal Pre-training Framework for Holistic and Regional Comprehension</span></br>
+        <span class="authorlist">Qiang Zhou, Chaohui Yu, Shaofeng Zhang, <b>Sitong Wu</b>, Zhibin Wang, Fan Wang</span></br>
+        <span class="papervenue"><b>arXiv</b>: 2308.02299</span></br>
+        <!-- [<a href="https://arxiv.org/abs/2308.02299v1"><b>arXiv</b></a>|<a href="https://github.com/mightyzau/RegionBLIP"><b>code</b></a>] -->
+        <a href="https://arxiv.org/abs/2308.02299v1"><span class="arxivbutton">arXiv</span></a> <a href="https://github.com/mightyzau/RegionBLIP"><span class="codebutton">code</span></a>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</details>
+
+<!-- ================= Data-Centric ================= -->
+<details class="pubgroup" open>
+  <summary><span class="pubgroup-name">Data-Centric</span><span class="pubcount">3</span></summary>
+  <table class="pubtable">
+    <tbody>
+    <!-- InfoMax [ICLR 2026] -->
+    <tr>
+      <td><img width="280" style="padding: 15px;" src="./pics/paper/infomax_iclr2026.png"></td>
+      <td>
+        <span class="papertitle">Data Pruning by Information Maximization</span></br>
+        <span class="authorlist">Haoru Tan*, <b>Sitong Wu*</b><sup title="Corresponding Author" style="font-size:11px;">✉</sup>, Wei Huang, Shizhen Zhao, Xiaojuan Qi</span></br>
+        <span class="papervenue">International Conference on Learning Representations (<b>ICLR</b>), 2026</span></br>
+        <a href="https://openreview.net/pdf?id=93XT0lKOct"><span class="paperbutton">paper</span></a> <a href="https://arxiv.org/abs/2506.01701v2"><span class="arxivbutton">arXiv</span></a> <a href="https://github.com/hrtan/InfoMax"><span class="codebutton">code</span></a>
+      </td>
+    </tr>
+
+    <!-- FastMix [ICLR 2026] -->
+    <tr>
+      <td><img width="280" style="padding: 15px;" src="./pics/paper/fastmix_iclr2026.png"></td>
+      <td>
+        <span class="papertitle">Fast Data Mixture Optimization via Gradient Descent</span></br>
+        <span class="authorlist">Haoru Tan, <b>Sitong Wu</b>, Yanfeng Chen, Jun Xia, Ruobing Xie, Bin Xia, Xingwu Sun, Xiaojuan Qi</span></br>
+        <span class="papervenue">International Conference on Learning Representations (<b>ICLR</b>), 2026</span></br>
+        <a href="https://openreview.net/pdf?id=5gFKVyohGd"><span class="paperbutton">paper</span></a> <a href="https://arxiv.org/abs/2606.14971v1"><span class="arxivbutton">arXiv</span></a> <a href="https://github.com/hrtan/fastmix"><span class="codebutton">code</span></a>
+      </td>
+    </tr>
+
+    <!-- MoSo [NIPS 2023] -->
+    <tr>
+      <td><img width="280" style="padding: 15px;" src="./pics/paper/moso_nips2023.png"></td>
+      <td>
+        <span class="papertitle">Data Pruning via Moving-one-Sample-out</span></br>
+        <span class="authorlist">Haoru Tan*, <b>Sitong Wu*</b>, Fei Du, Yukang Chen, Zhibin Wang, Fan Wang, Xiaojuan Qi</span></br>
+        <span class="papervenue">Conference on Neural Information Processing Systems (<b>NeurIPS</b>), 2023</span></br>
+        <!-- [<a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/3abe23bf7e295b44369c24465d68987a-Abstract-Conference.html"><b>paper</b></a>|<a href="https://arxiv.org/abs/2310.14664v2"><b>arXiv</b></a>|<a href="https://github.com/hrtan/MoSo"><b>code</b></a>] -->
+        <a href="https://arxiv.org/abs/2310.14664v2"><span class="arxivbutton">arXiv</span></a> <a href="https://github.com/hrtan/MoSo"><span class="codebutton">code</span></a> 
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</details>
+
+<!-- ================= Computer Vision ================= -->
+<details class="pubgroup" open>
+  <summary><span class="pubgroup-name">Computer Vision</span><span class="pubcount">4</span></summary>
+  <table class="pubtable">
+    <tbody>
+    <!-- Pale [AAAI 2022] -->
+    <tr>
+      <td><img width="280" style="padding: 15px;" src="./pics/paper/pale_aaai2022.png"></td>
+      <td>
+        <span class="papertitle">Pale Transformer: A General Vision Transformer Backbone with Pale-Shaped Attention</span></br>
+        <span class="authorlist"><b>Sitong Wu</b>, Tianyi Wu, Haoru Tan, Guodong Guo</span></br>
+        <span class="papervenue">Association for the Advancement of Artificial Intelligence (<b>AAAI</b>), 2022, <font color = 'red'><b>Oral</b></font></span></br>
+        <!-- [<a href="https://doi.org/10.1609/aaai.v36i3.20176"><b>paper</b></a>|<a href="https://arxiv.org/abs/2112.14000v1"><b>arXiv</b></a>|<a href="https://github.com/BR-IDL/PaddleViT"><b>code</b></a>] -->
+        <a href="https://doi.org/10.1609/aaai.v36i3.20176"><span class="paperbutton">paper</span></a> <a href="https://arxiv.org/abs/2112.14000v1"><span class="arxivbutton">arXiv</span></a> <a href="https://github.com/BR-IDL/PaddleViT"><span class="codebutton">code</span></a> 
+      </td>
+    </tr>
+
+
+    <!-- STM_empirical [arXiv 2022] -->
+    <tr>
+      <td><img width="280" style="padding: 15px;" src="./pics/paper/stm-empirical_arxiv2022.png"></td>
+      <td>
+        <span class="papertitle">Demystify Transformers & Convolutions in Modern Image Deep Networks</span></br>
+        <span class="authorlist">Xiaowei Hu*, Min Shi*, Weiyun Wang*, <b>Sitong Wu*</b>, Linjie Xing, Wenhai Wang, Xizhou Zhu, Lewei Lu, Jie Zhou, Xiaogang Wang, Yu Qiao, Jifeng Dai</span></br>
+        <span class="papervenue"><b>arXiv</b>: 2211.05781</span></br>
+        <!-- [<a href="https://arxiv.org/abs/2211.05781v2"><b>arXiv</b></a>|<a href="https://github.com/OpenGVLab/STM-Evaluation"><b>code</b></a>] -->
+        <a href="https://arxiv.org/abs/2211.05781v2"><span class="arxivbutton">arXiv</span></a> <a href="https://github.com/OpenGVLab/STM-Evaluation"><span class="codebutton">code</span></a> 
+      </td>
+    </tr>
+
+
+    <!-- SDC [NIPS 2022] -->
+    <tr>
+      <td><img width="280" style="padding: 15px;" src="./pics/paper/sdc_nips2022.png"></td>
+      <td>
+        <span class="papertitle">Semantic Diffusion Network for Semantic Segmentation</span></br>
+        <span class="authorlist">Haoru Tan*, <b>Sitong Wu*</b>, Jimin Pi</span></br>
+        <span class="papervenue">Conference on Neural Information Processing Systems (<b>NeurIPS</b>), 2022</span></br>
+        <!-- [<a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/396446770f5e8496ca1feb02079d4fb7-Abstract-Conference.html"><b>paper</b></a>|<a href="https://arxiv.org/abs/2302.02057v1"><b>arXiv</b></a>|<a href="https://github.com/stonewst/Semantic-Diffusion-Networks"><b>code</b></a>] -->
+        <a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/396446770f5e8496ca1feb02079d4fb7-Abstract-Conference.html"><span class="paperbutton">paper</span></a> <a href="https://arxiv.org/abs/2302.02057v1"><span class="arxivbutton">arXiv</span></a> <a href="https://github.com/stonewst/Semantic-Diffusion-Networks"><span class="codebutton">code</span></a> 
+      </td>
+    </tr>
+
+    <!-- UniNeXt [ACMMM 2023] -->
+    <tr>
+      <td><img width="280" style="padding: 15px;" src="./pics/paper/uninext_acmmm2023.png"></td>
+      <td>
+        <span class="papertitle">UniNeXt: Exploring A Unified Architecture for Vision Recognition</span></br>
+        <span class="authorlist">Fangjian Lin, Jianlong Yuan, <b>Sitong Wu</b>, Fan Wang, Zhibin Wang</span></br>
+        <span class="papervenue">ACM Multimedia Conference (<b>ACM MM</b>), 2023</span></br>
+        <!-- [<a href="https://dl.acm.org/doi/10.1145/3581783.3612260"><b>paper</b></a>|<a href="https://arxiv.org/abs/2304.13700v3"><b>arXiv</b></a>|<a href="https://github.com/jianlong-yuan/UniNeXt"><b>code</b></a>] -->
+        <a href="https://dl.acm.org/doi/10.1145/3581783.3612260"><span class="paperbutton">paper</span></a> <a href="https://arxiv.org/abs/2304.13700v3"><span class="arxivbutton">arXiv</span></a> <a href="https://github.com/jianlong-yuan/UniNeXt"><span class="codebutton">code</span></a> 
+      </td>
+    </tr>
+
+    <!-- CATrans [IJCAI 2022] -->
+    <tr>
+      <td><img width="280" style="padding: 15px;" src="./pics/paper/catrans_ijcai2022.png"></td>
+      <td>
+        <span class="papertitle">CATrans: Context and Affnity Transformer for Few-Shot Segmentation</span></br>
+        <span class="authorlist">Shan Zhang, Tianyi Wu, <b>Sitong Wu</b>, Guodong Guo</span></br>
+        <span class="papervenue">International Joint Conference on Artificial Intelligence (<b>IJCAI</b>), 2022</span></br>
+        <!-- [<a href="https://www.ijcai.org/proceedings/2022/0231"><b>paper</b></a>|<a href="https://arxiv.org/abs/2204.12817v1"><b>arXiv</b></a>] -->
+        <a href="https://www.ijcai.org/proceedings/2022/0231"><span class="paperbutton">paper</span></a> <a href="https://arxiv.org/abs/2204.12817v1"><span class="arxivbutton">arXiv</span></a>
+      </td>
+    </tr>
+
+    <!-- StructToken [TCSVT 2023] -->
+    <tr>
+      <td><img width="280" style="padding: 15px;" src="./pics/paper/structtoken_tcvst2023.png"></td>
+      <td>
+        <span class="papertitle">StructToken: Rethinking Semantic Segmentation with Structural Prior</span></br>
+        <span class="authorlist">Fangjian Lin*, Zhanhao Liang*, <b>Sitong Wu</b>, Junjun He, Kai Chen, Shengwei Tian</span></br>
+        <span class="papervenue">IEEE Transactions on Circuits and Systems for Video Technology (<b>TCSVT</b>), 2023</span></br>
+        <!-- [<a href="https://doi.org/10.1109/TCSVT.2023.3252807"><b>paper</b></a>|<a href="https://arxiv.org/abs/2203.12612v6"><b>arXiv</b></a>|<a href="https://github.com/RockeyCoss/StructToken"><b>code</b></a>] -->
+        <a href="https://doi.org/10.1109/TCSVT.2023.3252807"><span class="paperbutton">paper</span></a> <a href="https://arxiv.org/abs/2203.12612v6"><span class="arxivbutton">arXiv</span></a> <a href="https://github.com/RockeyCoss/StructToken"><span class="codebutton">code</span></a> 
+      </td>
+    </tr>
+
+    <!-- PRSeg [TCSVT 2023] -->
+    <tr>
+      <td><img width="280" style="padding: 15px;" src="./pics/paper/prseg_tcsvt2023.png"></td>
+      <td>
+        <span class="papertitle">PRSeg: A Lightweight Patch Rotate MLP Decoder for Semantic Segmentation</span></br>
+        <span class="authorlist">Fangjian Lin*, Yizhe Ma*, <b>Sitong Wu</b>, Long Yu, Shengwei Tian</span></br>
+        <span class="papervenue">IEEE Transactions on Circuits and Systems for Video Technology (<b>TCSVT</b>), 2023</span></br>
+        <!-- [<a href="https://doi.org/10.1109/TCSVT.2023.3271523"><b>paper</b></a>|<a href="https://arxiv.org/abs/2305.00671v1"><b>arXiv</b></a>] -->
+        <a href="https://doi.org/10.1109/TCSVT.2023.3271523"><span class="paperbutton">paper</span></a> <a href="https://arxiv.org/abs/2305.00671v1"><span class="arxivbutton">arXiv</span></a>
+      </td>
+    </tr>
+
+    <!-- AxWin [arXiv 2023] -->
+    <tr>
+      <td><img width="280" style="padding: 15px;" src="./pics/paper/axwin_arxiv2023.png"></td>
+      <td>
+        <span class="papertitle">AxWin Transformer: A Context-Aware Vision Transformer Backbone with Axial Windows</span></br>
+        <span class="authorlist">Fangjian Lin, Yizhe Ma, <b>Sitong Wu</b>, Long Yu, Shengwei Tian</span></br>
+        <span class="papervenue"><b>arXiv</b>: 2305.01280</span></br>
+        <!-- [<a href="https://arxiv.org/abs/2305.01280v1"><b>arXiv</b></a>] -->
+        <a href="https://arxiv.org/abs/2305.01280v1"><span class="arxivbutton">arXiv</span></a> 
+      </td>
+    </tr>
+
+
+    <!-- FTN [arXiv 2022] -->
+    <tr>
+      <td><img width="280" style="padding: 15px;" src="./pics/paper/ftn_arxiv2022.png"></td>
+      <td>
+        <span class="papertitle">Fully Transformer Networks for Semantic Image Segmentation</span></br>
+        <span class="authorlist"><b>Sitong Wu*</b>, Tianyi Wu*, Fangjian Lin*, Shengwei Tian, Guodong Guo</span></br>
+        <span class="papervenue"><b>arXiv</b>: 2106.04108</span></br>
+        <!-- [<a href="https://arxiv.org/abs/2106.04108v3"><b>arXiv</b></a>|<a href="https://github.com/BR-IDL/PaddleViT"><b>code</b></a>] -->
+        <a href="https://arxiv.org/abs/2106.04108v3"><span class="arxivbutton">arXiv</span></a> <a href="https://github.com/BR-IDL/PaddleViT"><span class="codebutton">code</span></a>
+      </td>
+    </tr>
+
+    <!-- FSFormer [ACCV 2022] -->
+    <tr>
+      <td><img width="280" style="padding: 15px;" src="./pics/paper/fsformer_accv2022.png"></td>
+      <td>
+        <span class="papertitle">Full-scale Selective Transformer for Semantic Segmentation</span></br>
+        <span class="authorlist">Fangjian Lin*, <b>Sitong Wu*</b>, Yizhe Ma, Shengwei Tian</span></br>
+        <span class="papervenue">Asian Conference on Computer Vision (<b>ACCV</b>), 2022</span></br>
+        <!-- [<a href="https://openaccess.thecvf.com/content/ACCV2022/html/Lin_Full-scale_Selective_Transformer_for_Semantic_Segmentation_ACCV_2022_paper.html"><b>paper</b></a>] -->
+        <a href="https://openaccess.thecvf.com/content/ACCV2022/html/Lin_Full-scale_Selective_Transformer_for_Semantic_Segmentation_ACCV_2022_paper.html"><span class="paperbutton">paper</span></a>
+      </td>
+    </tr>
+
+
+
+
+    <!-- EQAN [IJCV 2024] -->
+    <tr>
+      <td><img width="280" style="padding: 15px;" src="./pics/paper/eqan_ijcv2024.png"></td>
+      <td>
+        <span class="papertitle">Ensemble Quadratic Assignment Network for Graph Matching</span></br>
+        <span class="authorlist">Haoru Tan, Chuang Wang, <b>Sitong Wu</b>, Xuyao Zhang, Fei Yin, Chenglin Liu</span></br>
+        <span class="papervenue">International Journal on Computer Vision (<b>IJCV</b>), 2024</span></br>
+        <!-- [<a href="https://arxiv.org/abs/2403.06457"><b>arXiv</b></a>] -->
+        <a href="https://arxiv.org/abs/2403.06457"><span class="arxivbutton">arXiv</span></a>
+      </td>
+    </tr>
+
+    <!-- DPGM [AAAI 2021] -->
+    <tr>
+      <td><img width="280" style="padding: 15px;" src="./pics/paper/dpgm_aaai2021.png"></td>
+      <td>
+        <span class="papertitle">Proxy Graph Matching with Proximal Matching Networks</span></br>
+        <span class="authorlist">Haoru Tan, Chuang Wang, <b>Sitong Wu</b>, Tieqiang Wang, Xuyao Zhang, Chenglin Liu</span></br>
+        <span class="papervenue">Association for the Advancement of Artificial Intelligence (<b>AAAI</b>), 2021</span></br>
+        <!-- [<a href="https://doi.org/10.1609/aaai.v35i11.17179"><b>paper</b></a>] -->
+        <a href="https://doi.org/10.1609/aaai.v35i11.17179"><span class="paperbutton">paper</span></a>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</details>
+
+
+
+<h2>Experiences</h2>
+<ul>
+  <!-- Baidu Research -->
+  <table width="100%" align="center" border="0" cellpadding="10">
+      <tbody><tr>
+        <td width="20%" align="center">
+          <img src="./pics/affiliation/baidu_research.png" alt="face" width="80%">
+        </td>
+        <td width="80%" valign="center">
+            <span class="internaffiliation"><b>Baidu Research</b></span>   &nbsp; <span class="intern_discription">(2021 - 2022)</span> </br>
+            <span class="interndiscription">Research Internship | Supervisor:</span> <a href="https://scholar.google.com/citations?user=f2Y5nygAAAAJ" class="urltext2">Prof. Guodong Guo</a> <span class="interndiscription">and</span> <a href="https://scholar.google.com/citations?user=z5SPCmgAAAAJ" class="urltext2">Dr. Jingdong Wang</a>
+        </td>
+      </tr>
+      </tbody>
+  </table>
+  <!-- SHlab -->
+  <table width="100%" align="center" border="0" cellpadding="10">
+      <tbody><tr>
+        <td width="20%" align="center">
+          <img src="./pics/affiliation/shlab.png" alt="face" width="80%">
+        </td>
+        <td width="80%" valign="center">
+            <span class="internaffiliation"><b>Shanghai AI Laboratory</b></span>  &nbsp; <span class="intern_discription">(2022)</span> </br>
+            <span class="interndiscription">Research Internship | Supervisor:</span> <a href="https://xw-hu.github.io/" class="urltext2">Dr. Xiaowei Hu</a> <span class="interndiscription">and</span> <a href="https://jifengdai.org/" class="urltext2">Prof. Jifeng Dai</a>
+        </td>
+      </tr>
+      </tbody>
+  </table>
+  <!-- Damo -->
+  <table width="100%" align="center" border="0" cellpadding="10">
+    <tbody><tr>
+      <td width="20%" align="center">
+        <img src="./pics/affiliation/damo.png" alt="face" width="80%">
+      </td>
+      <td width="80%" valign="center">
+            <span class="internaffiliation"><b>Alibaba Damo Academy</b></span>   &nbsp; <span class="intern_discription">(2023)</span> </br>
+            <span class="interndiscription">Research Internship | Supervisor:</span> <a href="https://www.linkedin.com/in/fan-wang-b9605413/" class="urltext2">Dr. Fan Wang</a></a>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+
+</ul>
+
+
+
+<h2>Honors and Awards</h2>
+<ul>
+	<li>
+		  Postgraduate Scholarship, CUHK  &nbsp; (2023-2027)
+  </li>
+  <li>
+      Outstanding Internship Award, Baidu Research  &nbsp; (2021)
+  </li>
+  <li>
+      National Scholarship, China  &nbsp; (2018)
+  </li>
+  <li>
+      Outstanding Student, Jilin University  &nbsp; (2016 - 2019)
+  </li>
+  <li>
+      First Class Scholarship, Jilin University  &nbsp; (2015 - 2019)
+  </li>
+  <li>
+      Gold Medal, Kaggle Competition  &nbsp; (2020) 
+  </li>
+</ul>
+
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-88615920-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</div>
+</body>
+</html>
